@@ -1,12 +1,20 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+Project: clock-display
+Authors: David Barnes and Michael Kolling
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+This project is part of the material for the book
+
+   Objects First with Java - A Practical Introduction using BlueJ
+   David J. Barnes and Michael Kolling
+   Pearson Education, 2002
+
+It is discussed in chapter 3.
+
+To use this project, cerate an instance of class ClockDisplay. Then inspect this instance
+and leave the inspector window open. With the inspector window open, call the object's
+methods, such as timeTick and setTime. Watch the "displayString" in the inspector.
+
+The displayString field simulates the actual clock display device. Was this program 
+running in a real clock, it would change the real, physical display hardware instead of
+this string. Everything else could be pretty much the same.
+
+Note: This project does not implement adequate handling oof errors.
